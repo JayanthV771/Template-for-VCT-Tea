@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 115%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%), url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 155vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: 10px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: white;
+    font-size: 33px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    padding-left: 00px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: seashell;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover, ul li a.active  {
+    color: black;
+}
+
+.search {
+    padding-top: 20px;
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid black;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:  5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: yellowgreen;
+    border: 2px solid black;
+    margin-top: 13px;
+    color: 5px black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.price {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 320px;
+    top: 120px;
+}
+
+.price1 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card1 button:hover {
+    opacity: 0.7;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 590px;
+    top: 120px;
+}
+
+.price2 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card2 button:hover {
+    opacity: 0.7;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 875px;
+    top: 120px;
+}
+
+.price3 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card3 button:hover {
+    opacity: 0.7;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+
+.price4 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card4 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card4 button:hover {
+    opacity: 0.7;
+}
+
+.card5 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 320px;
+    top: 500px;
+}
+
+.price5 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card5 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card5 button:hover {
+    opacity: 0.7;
+}
+
+.card6 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 590px;
+    top: 500px;
+}
+
+.price6 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card6 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card6 button:hover {
+    opacity: 0.7;
+}
+
+.card7 {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    background-color: #fff;
+    position: absolute;
+    left: 875px;
+    top: 500px;
+}
+
+.price7 {
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card7 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+.card7 button:hover {
+    opacity: 0.7;
+}
+
+.card input,.card1 input,.card2 input,.card3 input,.card4 input,.card5 input,.card6 input,.card7 input {
+    width: 30px;
+    height: 20px;
+    position: relative;
+}

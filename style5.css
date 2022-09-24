@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%), url(bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    font-size: 33px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    padding-left: 00px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover, ul li a.active  {
+    color:green;
+}
+
+.search {
+    padding-top: 20px;
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid black;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:  5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: yellowgreen;
+    border: 2px solid black;
+    margin-top: 13px;
+    color: 5px black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+    font-family: Arial;
+}
+
+.cart img{
+    width: 70px;
+}
+
+.cart {
+    font-family: Arial;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    text-align: center;
+}
+
+.cart table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+.cart td {
+    width: 100px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.cart input {
+    width: 30px;
+    padding-left: 15px;
+}
+
+.cart thead {
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    background: black;
+    color: orange;
+    height: 25px;
+}
+
+.cart tbody {
+    border: 2px solid white;
+    background-color: black;
+}
+
+.cart i {
+    color: orange;
+}
+
+.cart tbody td{
+    font-size: 13px;
+}
+
+.cart tbody tr td {
+    padding-top: 15px;
+    font-weight: bold;
+    color: orange
+}
+
+.coupon {
+    border: 2px solid white;
+    position:absolute;
+    width: 300px;
+    top: 380px;
+    left: 100px;
+    background: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: orange;
+}
+
+.coupon h3 {
+    font-family: Arial;
+}
+
+.coupon input {
+    padding: 10px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.coupon button {
+    background-color: black;
+    color: orange;
+    padding: 12px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.total {
+    width: 450px;
+    height: 230px;
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    background-color: black;
+    color: orange;   
+    text-align: center;
+    cursor: pointer;
+}
+
+.total h3 {
+    font-family: Arial;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+}
+
+.total td {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 300px;
+    border:2px solid white ;
+}
+
+.total button {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: orange;
+    background-color: black;
+    border: 2px solid white;
+}
